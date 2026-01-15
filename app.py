@@ -4,7 +4,7 @@ from openai import OpenAI
 st.title("Chat AI Advanced 🚀")
 
 # حطي مفتاحك السري هنا بين علامات التنصيص
-client = OpenAI(api_key="sk-....") 
+client = OpenAI(api_key="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") 
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
